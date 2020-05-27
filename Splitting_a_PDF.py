@@ -1,6 +1,6 @@
 import os
 import PyPDF2
-#----------	
+
 path="D:\CIRO (Estudos Compactados)\CENTENNIAL\CENTENNIAL (ENERGY ENGINEERING)\Matérias\Python\Projects\PDF Processing\PDF Processing"
 os.chdir(path)
 inputpdf = PyPDF2.PdfFileReader(open("fw9.pdf", "rb"))
